@@ -1,5 +1,4 @@
-import numpy as np
-import glob
+
 import json
 import nltk
 
@@ -13,7 +12,7 @@ class Data_loader():
         self.rebuild_data_list =[]
         self.rebuild_data_mask =[]
         self.rebuild_data_label =[]
-
+        #transform the text to max_len dimension vector and the mask for vector
         for  d,l in self.data_list:
             data,mask,label=self._rebuild_data(d,l)
             self.rebuild_data_list.append(data)
@@ -39,6 +38,7 @@ class Data_loader():
     def get_data(self,batch_size):
         tims = len(self.data_list)/batch_size+1
         pos =0
+        #generate one epoch batch data
         for _ in range(tims):
             start = pos
             if start+batch_size >len(self.data_list):
