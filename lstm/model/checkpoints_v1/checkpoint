@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/xinmatrix/TwoTB/PycharmProjects/LSTM_sample/lstm/model/checkpoints_v1/model-85526"
+all_model_checkpoint_paths: "/home/xinmatrix/TwoTB/PycharmProjects/LSTM_sample/lstm/model/checkpoints_v1/model-84026"
+all_model_checkpoint_paths: "/home/xinmatrix/TwoTB/PycharmProjects/LSTM_sample/lstm/model/checkpoints_v1/model-84401"
+all_model_checkpoint_paths: "/home/xinmatrix/TwoTB/PycharmProjects/LSTM_sample/lstm/model/checkpoints_v1/model-84776"
+all_model_checkpoint_paths: "/home/xinmatrix/TwoTB/PycharmProjects/LSTM_sample/lstm/model/checkpoints_v1/model-85151"
+all_model_checkpoint_paths: "/home/xinmatrix/TwoTB/PycharmProjects/LSTM_sample/lstm/model/checkpoints_v1/model-85526"
